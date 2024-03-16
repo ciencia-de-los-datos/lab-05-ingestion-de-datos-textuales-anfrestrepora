@@ -14,7 +14,7 @@ def crear_set_entrenamiento_testeo():
     # Rutas de los directorios de las carpetas
     paths = ["/train/", "/test/"]
     # Nombres de los archivos de salida CSV para los datos
-    output_files = ["training_data.csv", "testing_data.csv"]
+    output_files = ["train_dataset.csv", "test_dataset.csv"]
     # Categorías de sentimientos (negative, positive, neutral)
     categories = ["negative", "positive", "neutral"]
     # Itera sobre la enumeración de los nombres de archivos de salida
